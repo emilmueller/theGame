@@ -6,6 +6,7 @@ public class TestClass {
 		// TODO Auto-generated method stub
 		System.out.println("Hallo Spieler!");
 		System.out.println(TestClass2.getNumber());
+		System.out.println("fertig");
 	}
 
 }
