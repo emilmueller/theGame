@@ -4,7 +4,7 @@ public class Kreatur {
 	
 	public Kreatur(String name, int dmg){
 		this.name=name;
-		this.strength=strength;
+		this.dmg=dmg;
 	}
 	
 	
