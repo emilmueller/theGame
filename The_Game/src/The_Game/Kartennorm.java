@@ -11,8 +11,6 @@ public class Kartennorm {
 	int hp;
 	int def;
 	int cost;
-	
-	//komm
 
 	public Kartennorm(String name) {
 		this.name = name;
