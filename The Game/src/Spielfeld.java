@@ -8,7 +8,7 @@ public class Spielfeld extends PApplet {
 	int z; //z-Ausdehnung("Dicke")
 	
 	//Konstruktor
-	public Feld(String name, int x, int y, int z){
+	public Spielfeld(String name, int x, int y, int z){
 		this.name=name;
 		this.x=x;
 		this.y=y;
