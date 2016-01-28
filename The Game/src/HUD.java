@@ -1,4 +1,10 @@
+import processing.core.PApplet;
 
-public class HUD {
+public class HUD extends PApplet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
 
 }
