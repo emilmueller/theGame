@@ -1,7 +1,8 @@
 
 public class Deck {
+	int player;
 
-	public Deck(){
+	public Deck(int player, ){
 		
 	}
 	
