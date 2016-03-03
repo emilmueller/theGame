@@ -5,7 +5,7 @@ public class Playground extends PApplet {
 
 	int x=960;
 	int y=540;
-	int [][] playground = new int[][];
+	//int [][] playground = new int[x1][x2];
 
 	
 	public void setup () {
