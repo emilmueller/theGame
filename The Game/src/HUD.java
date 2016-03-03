@@ -19,7 +19,7 @@ PFont f;
 	public void setup(){
 		size(x, y);
 		frameRate(20);
-		createFont(f);
+		f = createFont("Arial",16,true);
 	}
 	public void draw(){
 		
