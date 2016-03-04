@@ -9,6 +9,7 @@ int Buttony;
 int Setx;
 int Sety;
 PFont f;
+TextBox r ("lol", 5, 5, 5);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -22,7 +23,8 @@ PFont f;
 		f = createFont("Arial",16,true);
 	}
 	public void draw(){
-		
+		TextBox.show();
+		TextBox("lol", 5, 5, 5).show();
 		rect(0,0,x,y);
 		rect(10, 10,Setx, Sety);
 		
