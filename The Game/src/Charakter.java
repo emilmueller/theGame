@@ -6,7 +6,7 @@ public class Charakter extends card {
 	private int nom; //Nummer des Charakters
 	private int pic; //Bild 
 
-	public Charakter(String name, int dmg, int hp, int cost ,int reg, int No,int pic){
+	public Charakter(int dmg, int hp,int reg,int spawn){
 		
 		this.dmg=dmg;
 		this.hp=hp;
