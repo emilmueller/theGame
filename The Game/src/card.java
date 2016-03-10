@@ -1,8 +1,9 @@
 
 public class card {
-	String name;
-	int No;
-	public card(String name, int No){
+	String name; //Name der Karte
+	String cost; // Kosten der Karte
+	String nom; //nummer der Karte
+	public card(String name,String cost,String nom){
 
 	}
 }
