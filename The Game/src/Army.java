@@ -1,12 +1,12 @@
 
 public class Army {
 	private String name;
-	private int Soliders; // = damage + health
+	private int soliders; // = damage + health
 	private int def; //defence
 
-	public Army (String name, int Soliders, int def){
+	public Army (String name, int soliders, int def){
 		this.name=name;
-		this.Soliders=Soliders;
+		this.soliders=soliders;
 		this.def=def;
 	}
 
