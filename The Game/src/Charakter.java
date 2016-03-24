@@ -1,16 +1,16 @@
 public class Charakter extends Card {
 	private int damage; //damage
-	private int hp; //health
+	private int health; //health
 	private int spawn; //army spawning
-	private int reg; //army regeneragtion
-	private int pic; //Bild 
+	private int regeneration; //army regeneragtion
+	private int picture; //Bild 
 
-	public Charakter (String name, String cost, String number, int dmg, int hp, int reg, int spawn){
+	public Charakter (String name, int cost, int number, int damage, int health, int regeneration, int spawn){
 		super(name, cost, number);
 		
-		this.damage=dmg;
-		this.hp=hp;
-		this.reg=reg;
+		this.damage=damage;
+		this.health=health;
+		this.regeneration=regeneration;
 		this.spawn=spawn;
 		
 		
