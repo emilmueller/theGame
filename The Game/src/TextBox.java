@@ -1,4 +1,5 @@
 import processing.core.PFont;
+import processing.core.PApplet;
 
 public class TextBox {
 
@@ -11,7 +12,8 @@ public class TextBox {
 	
 
 
-	static void show(String text, int x, int y, int size){
+	static void write(String text, int x, int y, int size){
+		
 		background(130);
 		stroke();
 		rect(x, y);
