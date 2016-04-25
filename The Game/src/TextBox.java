@@ -8,16 +8,24 @@ public class TextBox {
 	int y;
 	int size;
 	PFont f;
+	HUD uiBuilder;
 
 	
 
 
-	static void write(String text, int x, int y, int size){
+	public TextBox(HUD hud) {
+		uiBuilder = hud;
+	}
+
+
+
+
+	void write(String text, int x, int y, int size){
 		
-		background(130);
-		stroke();
+		uiBuilder.background(130);
+		/*stroke(5);
 		rect(x, y);
-		text(text);
+		text(text);*/
 		
 	}
 }
