@@ -8,12 +8,12 @@ public class TextBox {
 	int y;
 	int size;
 	PFont f;
-	HUD uiBuilder;
+	GraphicHud uiBuilder;
 
 	
 
 
-	public TextBox(HUD hud) {
+	public TextBox(GraphicHud hud) {
 		uiBuilder = hud;
 	}
 

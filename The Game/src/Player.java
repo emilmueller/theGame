@@ -2,10 +2,11 @@
 public class Player {
 	String name;
 	Deck deck;
-	public Player(String name, Deck deck){
+	Hud hud;
+	
+	public Player(String name){
 		this.name=name;
-		this.deck=deck;
-		
+		deck = new Deck();
+		hud = new Hud();
 	}
-
 }

@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 import processing.core.PFont;
 
-public class HUD extends PApplet {
+public class GraphicHud extends PApplet {
 	int x;
 	int y;
 	int Buttonx;
@@ -21,7 +21,7 @@ public class HUD extends PApplet {
 		f = createFont("Arial",16,true);
 	}
 	public void draw(){
-		textbox.write(text, Setx, Buttony, size);
+		//textbox.write(text, Setx, Buttony, size);
 
 
 	}
