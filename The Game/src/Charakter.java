@@ -1,9 +1,10 @@
 public class Charakter extends Card {
-	private int damage; //damage
-	private int health; //health
-	private int spawn; //army spawning
-	private int regeneration; //army regeneragtion
-	private int picture; //Bild 
+	public int damage; //damage
+	public int health; //health
+	public int spawn; //army spawning
+	public int regeneration; //army regeneragtion
+	public int picture; //Bild 
+	public boolean drawn;
 
 	public Charakter (String name, int cost, int number, int damage, int health, int regeneration, int spawn){
 		super(name, cost, number);

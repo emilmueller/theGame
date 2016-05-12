@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Hud {
 	ArrayList<Charakter> charakter = new ArrayList<Charakter>();
@@ -15,4 +16,5 @@ public class Hud {
 		}
 		return null;
 	}
+	
 }
