@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Hud {
-	ArrayList<Charakter> charakter = new ArrayList<Charakter>();
+	ArrayList<Character> charakter = new ArrayList<Character>();
 
-	public void add(Charakter c) {
+	public void add(Character c) {
 		charakter.add(c);
 	}
 
-	public Charakter getCard(String name) {
-		for (Charakter c : charakter) {
+	public Character getCard(String name) {
+		for (Character c : charakter) {
 			if (c.name == name) {
 				return c;
 			}

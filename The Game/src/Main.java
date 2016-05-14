@@ -6,9 +6,9 @@ public class Main {
 		
 		
 		Player player1 = new Player("Spieler 1");
-		player1.hud.add(new Charakter ("Dante", 666, 0001, 6, 66, 6, 66));
-		player1.hud.add(new Charakter ("Alessandro", 500, 0002, 6, 99, 20, 100));
-		player1.hud.add(new Charakter ("Dominik", 100, 0003, 5, 69, 69, 100));
+		player1.hud.add(new Character ("Dante", 666, 0001, 6, 66, 6, 66));
+		player1.hud.add(new Character ("Alessandro", 500, 0002, 6, 99, 20, 100));
+		player1.hud.add(new Character ("Dominik", 100, 0003, 5, 69, 69, 100));
 		
 		//player1.
 		
@@ -28,9 +28,9 @@ public class Main {
         player1.hand.print();
 		
 		
-		Charakter assassinDante = new Charakter ("Dante", 666, 0001, 6, 66, 6, 66);
-		Charakter deathScytheAlessandro = new Charakter ("Alessandro", 500, 0002, 6, 99, 20, 100);
-        Charakter picosBoyfriendDominik = new Charakter ("Dominik", 100, 0003, 5, 69, 69, 100);
+		Character assassinDante = new Character ("Dante", 666, 0001, 6, 66, 6, 66);
+		Character deathScytheAlessandro = new Character ("Alessandro", 500, 0002, 6, 99, 20, 100);
+        Character picosBoyfriendDominik = new Character ("Dominik", 100, 0003, 5, 69, 69, 100);
 	}
 
 }

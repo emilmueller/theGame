@@ -5,17 +5,17 @@ public class Deck {
 	public Deck() {
 	}
 	
-	public void add(Charakter c) {
+	public void add(Character c) {
 		charakter.add(c);
 		
 		
 	}
 
-	ArrayList<Charakter> charakter = new ArrayList<Charakter>();
+	ArrayList<Character> charakter = new ArrayList<Character>();
 
-	public Charakter getCard(String name) {
+	public Character getCard(String name) {
 		
-		for (Charakter c : charakter) {
+		for (Character c : charakter) {
 			if (c.name == name) {
 				return c;
 			}
@@ -24,7 +24,7 @@ public class Deck {
 	}
 
 	public void print() {
-		for (Charakter c : charakter) {
+		for (Character c : charakter) {
 			System.out.println("__________________");
 			System.out.println(c.name);
 			System.out.println("Damage: " + c.damage);
@@ -36,7 +36,7 @@ public class Deck {
 		}
 		
 	}
-	public Charakter getRandom(){
+	public Character getRandom(){
 		int index = new Random().nextInt(charakter.size()); 
 		return charakter.get(index);
 	}

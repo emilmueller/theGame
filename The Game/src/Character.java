@@ -1,4 +1,4 @@
-public class Charakter extends Card {
+public class Character extends Card {
 	public int damage; //damage
 	public int health; //health
 	public int spawn; //army spawning
@@ -6,7 +6,7 @@ public class Charakter extends Card {
 	public int picture; //Bild 
 	public boolean drawn;
 
-	public Charakter (String name, int cost, int number, int damage, int health, int regeneration, int spawn){
+	public Character (String name, int cost, int number, int damage, int health, int regeneration, int spawn){
 		super(name, cost, number);
 		
 		this.damage=damage;
