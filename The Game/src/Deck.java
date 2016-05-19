@@ -16,7 +16,7 @@ public class Deck {
 	public Character getCard(String name) {
 		
 		for (Character c : charakter) {
-			if (c.name == name) {
+			if (c.getName() == name) {
 				return c;
 			}
 		}
@@ -26,11 +26,11 @@ public class Deck {
 	public void print() {
 		for (Character c : charakter) {
 			System.out.println("__________________");
-			System.out.println(c.name);
-			System.out.println("Damage: " + c.damage);
-			System.out.println("Health: " + c.health);
-			System.out.println("Army-Spawn: " + c.spawn);
-			System.out.println("Health-Regen.: " + c.regeneration);
+			System.out.println(c.getName());
+			System.out.println("Damage: " + c.getDamage());
+			System.out.println("Health: " + c.getHealth());
+			System.out.println("Army-Spawn: " + c.getSpawn());
+			System.out.println("Health-Regen.: " + c.getRegeneration());
 			System.out.println("__________________");
 		
 		}

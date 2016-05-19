@@ -10,7 +10,7 @@ public class Hud {
 
 	public Character getCard(String name) {
 		for (Character c : charakter) {
-			if (c.name == name) {
+			if (c.getName() == name) {
 				return c;
 			}
 		}
