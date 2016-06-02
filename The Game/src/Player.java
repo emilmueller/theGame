@@ -3,7 +3,7 @@ public class Player {
 	String name;
 	Deck deck;
 	Deck hand;
-	Hud hud;
+	Library hud;
 	
 	int ressourcen = 5;
 	
@@ -11,7 +11,7 @@ public class Player {
 	public Player(String name){
 		this.name=name;
 		deck = new Deck();
-		hud = new Hud();
+		hud = new Library();
 		hand = new Deck();
 	}
 	
