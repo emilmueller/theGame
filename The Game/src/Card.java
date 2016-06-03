@@ -16,7 +16,7 @@ public class Card {
 	}
 
 
-	public boolean isDrawn() {
+	public boolean getDrawn() {
 		return drawn;
 	}
 

@@ -22,9 +22,10 @@ public class Library {
 
 	public Character getCard(String name) {
 		for (Character c : characters) {
-			if (c.getName() == name) {
+			if (c.getName() == name && c.getDrawn()==false) {
 				return c;
 			}
+			c.setDrawn(true);
 		}
 		return null;
 	}

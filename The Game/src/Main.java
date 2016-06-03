@@ -13,17 +13,19 @@ public class Main {
         System.out.println("HAND");
         System.out.println("--------");
 		
+        player1.deck.add(player1.library.);
+        
 		player1.hand.add(player1.deck.getRandom());
 		player1.hand.add(player1.deck.getRandom());
 		player1.hand.add(player1.deck.getRandom());
+		
+		
 		
 	
         player1.hand.print();
 		
 		
-		Character assassinDante = new Character ("Dante", 666, 0001, 6, 66, 6, 66);
-		Character deathScytheAlessandro = new Character ("Alessandro", 500, 0002, 6, 99, 20, 100);
-        Character picosBoyfriendDominik = new Character ("Dominik", 100, 0003, 5, 69, 69, 100);
+		
 	}
 
 }
