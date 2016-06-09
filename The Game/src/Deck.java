@@ -42,6 +42,8 @@ public class Deck {
 	}
 	public Card getRandom(){
 		int index = new Random().nextInt(cards.size()); 
-		return cards.get(index);
+		Card result = cards.get(index);
+		cards.remove(index);
+		return result;
 	}
 }

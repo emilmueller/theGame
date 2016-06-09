@@ -19,7 +19,7 @@ public class Player {
 		return(this.library.getSize());
 	}
 	public Card getCard(int i){
-		return(library.getCardIndex(i));
+		return(library.getCardbyIndex(i));
 	}
 	
 }

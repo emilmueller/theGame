@@ -21,7 +21,7 @@ public class Library {
 	public void add(Card c) {
 		cards.add(c);
 	}
-	public Card getCardIndex(int i){
+	public Card getCardbyIndex(int i){
 		return(cards.get(i));
 	}
 
