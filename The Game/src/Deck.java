@@ -31,7 +31,7 @@ public class Deck {
 				System.out.println("Name:" + character.getName());
 				System.out.println("Damage:" + character.getDamage());
 				System.out.println("Health:" +character.getHealth());
-				System.out.println("Health-Regen.: " + character.getRegeneration());
+				System.out.println("Army-Regen.: " + character.getRegeneration());
 				System.out.println("Army-Spawn: " + character.getSpawn());
 				System.out.println("__________________");
 			}
