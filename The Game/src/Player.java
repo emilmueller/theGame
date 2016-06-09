@@ -15,6 +15,11 @@ public class Player {
 		hand = new Deck();
 	}
 	
-	
+	public int getLibrarySize(){
+		return(this.library.getSize());
+	}
+	public Card getCard(int i){
+		return(library.getCardIndex(i));
+	}
 	
 }

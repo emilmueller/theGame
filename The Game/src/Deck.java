@@ -25,13 +25,17 @@ public class Deck {
 
 	public void print() {
 		for (Card c : cards) {
-			System.out.println("__________________");
-			System.out.println(c.getName());
-			System.out.println("Damage: " + c.getDamage());
-			System.out.println("Health: " + c.getHealth());
-			System.out.println("Army-Spawn: " + c.getSpawn());
-			System.out.println("Health-Regen.: " + c.getRegeneration());
-			System.out.println("__________________");
+			if ( c instanceof Character) {
+				Character character = (Character)c;
+				System.out.println("__________________");
+				System.out.println("Name:" + character.getName());
+				System.out.println("Damage:" + character.getDamage());
+				System.out.println("Health:" +character.getHealth());
+				System.out.println("Health-Regen.: " + character.getRegeneration());
+				System.out.println("Army-Spawn: " + character.getSpawn());
+				System.out.println("__________________");
+			}
+			
 		
 		}
 		
